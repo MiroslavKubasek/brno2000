@@ -1,0 +1,22 @@
+{
+  "name": "brno2000",
+  "version": "0.1.0",
+  "description": "Brno 2000: pixelová mapa Brna, zdrojový kód verze z 8. 11. 2026",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "vite --mode public",
+    "build": "vite build --mode public && node tools/placepages.mjs",
+    "preview": "vite preview --mode public"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@fontsource/jersey-15": "^5.3.0",
+    "@fontsource/vt323": "^5.3.0",
+    "openseadragon": "4.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}

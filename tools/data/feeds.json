@@ -1,0 +1,84 @@
+{
+  "weather": {
+    "every": "hourly",
+    "files": [
+      "weather.json"
+    ]
+  },
+  "meteo": {
+    "every": "hourly",
+    "files": [
+      "meteo.json",
+      "meteo-history.json"
+    ]
+  },
+  "air": {
+    "every": "hourly",
+    "files": [
+      "air.json"
+    ]
+  },
+  "outages": {
+    "every": "daily",
+    "files": [
+      "outages.json"
+    ]
+  },
+  "gotobrno": {
+    "every": "daily",
+    "files": [
+      "gotobrno.json",
+      "gotobrno-detail.json"
+    ]
+  },
+  "paro": {
+    "every": "daily",
+    "files": [
+      "paro.json",
+      "paro-detail.json"
+    ]
+  },
+  "closures": {
+    "every": "daily",
+    "files": [
+      "closures.json"
+    ]
+  },
+  "roadworks": {
+    "every": "daily",
+    "files": [
+      "roadworks.json"
+    ]
+  },
+  "projects": {
+    "every": "weekly",
+    "files": [
+      "projects.json",
+      "projects-detail.json"
+    ]
+  },
+  "sites": {
+    "every": "weekly",
+    "files": [
+      "sites.json"
+    ]
+  },
+  "tramplan": {
+    "every": "weekly",
+    "files": [
+      "tramplan.json"
+    ]
+  },
+  "pois": {
+    "every": "weekly",
+    "files": [
+      "smallpois.json"
+    ]
+  },
+  "monuments": {
+    "every": "weekly",
+    "files": [
+      "monuments.json"
+    ]
+  }
+}

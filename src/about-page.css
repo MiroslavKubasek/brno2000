@@ -1,0 +1,20 @@
+@import './fonts.css';
+/* the page /o-mape: the same text as "Jak to vzniklo" in the map, on its own */
+:root { --night: #1b2333; --panel: #232d42; --edge: #3a4762; --ink: #eef1e6; --muted: #a9b3c4; --tile: #c9583b; --grass: #8cc063; --display: "Jersey 15", "Courier New", monospace; --body: "Atkinson Hyperlegible", system-ui, sans-serif; color-scheme: dark; }
+body { margin: 0; background: var(--night); color: var(--ink); font: 16px/1.55 var(--body); }
+.about-page { max-width: 680px; margin: 0 auto; padding: 28px 18px 48px; }
+.about-page h1 { font-family: var(--display); font-weight: 500; font-size: 1.9rem; line-height: 1.1; margin: 14px 0 18px; }
+.about-page h1 span { color: var(--tile); }
+.about-page .about { background: var(--panel); border: 2px solid var(--edge); box-shadow: 4px 4px 0 rgba(0, 0, 0, .35); padding: 16px 18px; }
+.about-page .about p { margin: 0 0 12px; color: var(--muted); }
+.about-page .about .author, .about-page .about strong { color: var(--ink); }
+.about-page a { color: var(--ink); }
+.about-page .back { font-family: var(--display); color: var(--grass); text-decoration: none; }
+.about-page .links { margin-top: 18px; color: var(--muted); }
+.author-block { display: flow-root; margin-bottom: 14px; }
+.author-block .avatar-link { float: left; display: block; margin: 2px 16px 4px 0; line-height: 0; }
+.author-block .avatar { display: block; width: 104px; height: 104px; image-rendering: pixelated; }
+.author-block .avatar-link:hover .avatar, .author-block .avatar-link:focus-visible .avatar { filter: brightness(1.12); }
+@media (max-width: 640px) { .author-block .avatar { width: 88px; height: 88px; } .author-block .avatar-link { margin-right: 12px; } }
+.author-block p { margin: 0 !important; color: var(--ink) !important; }
+.about .fine { font-size: .8rem; }

@@ -1,0 +1,52 @@
+{
+  "parts": {
+    "lupa": {
+      "public": false,
+      "data": [
+        "data/lupa"
+      ],
+      "datasets": [
+        "Brno pod lupou"
+      ]
+    },
+    "siteweb": {
+      "public": false,
+      "data": [
+        "data/siteweb.json"
+      ],
+      "datasets": [
+        "Weby staveb"
+      ]
+    },
+    "datamap": {
+      "public": true,
+      "html": "datamap",
+      "data": [
+        "data/r0/dm"
+      ],
+      "datasets": [
+        "Hluk z dopravy 2022",
+        "Záplavová území",
+        "Hustota obyvatel 2021",
+        "Průzkum budov 2018–2020 (využití podlaží)",
+        "Hranice katastrálních území"
+      ]
+    },
+    "pano": {
+      "public": true,
+      "html": "pano",
+      "data": [],
+      "datasets": [
+        "Fotky z ulice (Panoramax)"
+      ]
+    },
+    "rotations": {
+      "public": false,
+      "data": [
+        "data/r1",
+        "data/r2",
+        "data/r3"
+      ]
+    }
+  }
+}
